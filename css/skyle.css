@@ -1,0 +1,62 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 20px;
+}
+
+.wrap {
+    padding: 10px;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    /* font-size: 36px; */
+    padding: 0;
+    margin: 0 20px;
+}
+
+header p {
+    font-size: 12px;
+    margin: 0 20px;
+}
+
+main {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+}
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.card img {
+    width: 60px;
+    margin: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card {
+    position: relative;
+    width: 60px;
+    height: 80px;
+    margin: 5px;
+}
+
+.card img.front {
+    z-index: 1;
+}
