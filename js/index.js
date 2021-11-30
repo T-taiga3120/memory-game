@@ -68,13 +68,3 @@ $(function(){
     })
 
 });
-
-
-    // $(document).on("click",".card",function(event){
-    //     if(cnt < 2){
-    //         $(this).children("img").toggleClass("front")
-    //     }else if($(this).children("img").eq(obverse).hasClass("front")){
-    //         $(this).children("img").toggleClass("front")
-    //     }
-    //     cnt = $(".obverse.front").length;
-    // });
